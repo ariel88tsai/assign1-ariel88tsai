@@ -20,7 +20,7 @@ void setup() {
   life = loadImage("img/life.png");
   soil = loadImage("img/soil.png");
   soldier = loadImage("img/soldier.png");
-  soldierY = 160+ 80 * floor(random(0,3));
+  soldierY = 160+ 80 * floor(random(0,4));
   robot = loadImage("img/robot.png");
   robotY = 160 + 80*floor(random(1,4));
   robotX = random(160,560);
